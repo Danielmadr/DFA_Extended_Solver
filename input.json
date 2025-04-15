@@ -1,0 +1,17 @@
+{
+    "dfa": {
+        "alfabeto": ["0", "1"],
+        "estados": ["q_0", "q_1", "q_2"],
+        "transicoes": {
+            "q_0,0": "q_1",
+            "q_0,1": "q_0",
+            "q_1,0": "q_1",
+            "q_1,1": "q_2",
+            "q_2,0": "q_2",
+            "q_2,1": "q_2"
+        },
+        "estado_inicial": "q_0",
+        "estados_finais": ["q_2"]
+    },
+    "string": "1110"
+}
